@@ -12,6 +12,7 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
     "heroicons": "^1.0.6",
+    "mkcert": "^1.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
