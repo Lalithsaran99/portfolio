@@ -53,7 +53,11 @@ export const Contact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a
+                className="text-indigo-400 leading-relaxed"
+                href="no-script.html"
+                id="myLink"
+              >
                 lalithsaran99@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -64,7 +68,7 @@ export const Contact = () => {
           </div>
         </div>
         <form
-        //   netlify
+          //   netlify
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
